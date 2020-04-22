@@ -57,6 +57,15 @@ cmake -G "Visual Studio 16 2019" -A x64 -DCMAKE_CONFIGURATION_TYPES="Debug;Relea
 cmake --build . --config Debug
 ```
 
+### Update vcpkg
+
+```
+cd ~/path/to/vcpkg/root
+git pull
+.\bootstrap-vcpkg.bat
+vcpkg upgrade  --no-dry-run
+```
+
 ## Ref
 
-[I_refed](https://github.com/mattfife/QtQuick-with-cmake)
+[I-refed](https://github.com/mattfife/QtQuick-with-cmake)
