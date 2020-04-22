@@ -9,8 +9,8 @@ Check following packages are installed
 1. git
 2. Visual Studio 2019(MFC, ATL, build tools)
 
-![vcpkg-need-1](doc/vcpkg-need-1.png)
-![vcpkg-need-1](doc/vcpkg-need-2.png)
+![vcpkg-need-1](doc/vcpkg-need-1.PNG)
+![vcpkg-need-1](doc/vcpkg-need-2.PNG)
 
 ### Install vcpkg
 
