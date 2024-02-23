@@ -8,7 +8,13 @@ typedef struct obj_t {
 } obj;
 
 obj* create_obj(const char* _name, const int _age);
+
+void append_obj_pp(obj** _obj, const char* _name, const int _age);
 void append_obj(obj* _obj, const char* _name, const int _age);
+void push_top_obj(obj* _obj, const char* _name, const int _age);
+
+
+
 void purge_objs(obj* _obj);
 void print_all_obj(const obj* _obj);
 
